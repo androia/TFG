@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "551263051147",
+    "firebase_url": "https://tfgsecuritycams.firebaseio.com",
+    "project_id": "tfgsecuritycams",
+    "storage_bucket": "tfgsecuritycams.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551263051147:android:c21c7b3d391574be",
+        "android_client_info": {
+          "package_name": "com.example.andre.tfg_securitycams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551263051147-lmbomu7cp8tecu6bn5g9iemc3ffngfqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.andre.tfg_securitycams",
+            "certificate_hash": "5ea28d74a01b934b6adc2d8789f0b303c014448b"
+          }
+        },
+        {
+          "client_id": "551263051147-jjtctqgri9g7r4sl509qbnih1d4cvbm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRP8At_4Y0Nnnc0OOUwpTsw9bwWXAI1Fg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551263051147-jjtctqgri9g7r4sl509qbnih1d4cvbm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
