@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andre.tfg_securitycams.AltaCamActivity">
+
+    <TextView
+        android:id="@+id/textAltaCam"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="ALTA CÁMARA"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nomCam"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/textAltaCam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="110dp"
+        android:hint="Nombre cámara" />
+
+    <EditText
+        android:id="@+id/ipCam"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nomCam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:hint="IP cámara" />
+
+    <EditText
+        android:id="@+id/portCam"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ipCam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:hint="Puerto cámara" />
+
+    <EditText
+        android:id="@+id/usuariCam"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/portCam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:hint="Usuario cámara" />
+
+    <EditText
+        android:id="@+id/contraCam"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/usuariCam"
+        android:layout_centerHorizontal="true"
+        android:hint="Contraseña cámara" />
+
+    <Button
+        android:id="@+id/btnDarAlta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contraCam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="DAR DE ALTA" />
+
+</RelativeLayout>
+
